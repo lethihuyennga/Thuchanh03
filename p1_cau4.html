@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form đăng ký</title>
+  <style>
+    body {
+      background: #eef;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    input, select, textarea, button {
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background: #3399ff;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <input type="text" placeholder="Họ tên">
+    <input type="email" placeholder="Email">
+    <input type="tel" placeholder="Số điện thoại">
+    <select>
+      <option>Chọn ngành</option>
+      <option>CNTT</option>
+      <option>Kinh tế</option>
+      <option>Thiết kế</option>
+    </select>
+    <textarea rows="3" placeholder="Ghi chú thêm..."></textarea>
+    <button type="submit">Gửi</button>
+  </form>
+</body>
+</html>
