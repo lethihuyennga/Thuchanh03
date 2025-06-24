@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giới thiệu bản thân</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #e0f0ff;
+      font-family: sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 800px;
+      width: 90%;
+    }
+
+    .avatar {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .avatar img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .info {
+      flex: 2;
+      padding: 0 20px;
+    }
+
+    .info h1 {
+      margin-bottom: 10px;
+      color: #0077cc;
+    }
+
+    .info p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .info {
+        padding: 20px 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="avatar">
+      <img src="https://scontent.fsgn5-13.fna.fbcdn.net/v/t39.30808-1/496851412_1752383275316433_2878894279749860555_n.jpg?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeFXGKUWeHEGZYibimh7w3n5oWptSsuD22Cham1Ky4PbYFjl4D9hOA8YzRCrNjITurLEEFHxv7FeTQ98jHDoCYpP&_nc_ohc=uLzmqIn9H3QQ7kNvwFRVGXd&_nc_oc=AdlYCiAx19yb4Y3VUevL_YQpRERaVEjPew7Icfjn3FcvB2X2MuD2Vg1n2KMXAxccs5QmgC73_wX67YuXjRysuV6x&_nc_zt=24&_nc_ht=scontent.fsgn5-13.fna&_nc_gid=AtETJtc3dlzhzptkjX-lDg&oh=00_AfPFe6BZy1Mf6-HMcZWjDGVSr4wqAxSOaEa_QABi55yhDA&oe=686026EF" alt="Ảnh đại diện">
+    </div>
+    <div class="info">
+      <h1>Lê Thị Huyền Nga</h1>
+      <p>Mình là sinh viên ngành TMDT, đam mê lập trình web.</p>
+    </div>
+  </div>
+</body>
+</html>
