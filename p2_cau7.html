@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 40px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.25);
+}
+</style>
+</head>
+<body>
+    <h2 >Thư viện ảnh cá nhân</h2>
+
+  <div class="gallery">
+    <img src="https://i.pinimg.com/736x/08/ac/f0/08acf0dde4ae9d1aaeba061ddf87a123.jpg" alt="Ảnh 1" width="150px" height="150px">
+    <img src="https://i.pinimg.com/736x/50/ad/c0/50adc077ca7953a49f2418d826475aea.jpg" alt="Ảnh 2" width="150px" height="150px">
+    <img src="https://i.pinimg.com/736x/44/53/5c/44535c6e4c85544ed17b093e4f0773fe.jpg" alt="Ảnh 3" width="150px" height="150px">
+    <img src="https://i.pinimg.com/736x/8f/56/bd/8f56bd6525872d5ae686c3e18392519f.jpg" alt="Ảnh 4" width="150px" height="150px">
+    <img src="https://i.pinimg.com/736x/7e/c0/55/7ec055c189bbe28faeba99a7ed65ec32.jpg" alt="Ảnh 5" width="150px" height="150px">
+    <img src="https://i.pinimg.com/736x/12/c6/08/12c608c59f7ed4d6e10b80ea1e726a13.jpg" alt="Ảnh 6" width="150px" height="150px">
+  </div> 
+</body>
+</html>
